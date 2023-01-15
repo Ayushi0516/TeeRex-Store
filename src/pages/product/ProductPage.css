@@ -1,0 +1,30 @@
+.products__search{
+/* border:1px solid blue; */
+margin-left: 220px;
+margin-top: 70px;
+}
+
+input[type=text]{
+    width: 40%;
+    height: 40px;
+}
+::placeholder{
+    font-size: 16px;
+    padding-left: 4px;
+    color: black;
+}
+.productPage{
+    /* border:1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 60px;
+   
+}
+.productsList{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    
+}

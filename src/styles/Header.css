@@ -1,0 +1,23 @@
+.header{
+    height: 50px;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product{
+padding-right: 70px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 30px;
+}
+.store{
+    padding-left: 30px;
+}
+.cartIcon{
+    margin-top: 10px;
+}
+h3{
+    text-decoration: underline;
+}
